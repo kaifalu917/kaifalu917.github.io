@@ -1,7 +1,170 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
+<!--
+	Stellar by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 <html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-</body>
+	
+	<head>
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-FT8DD45EEE"></script>
+	<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+
+	gtag('config', 'G-FT8DD45EEE');
+	</script>
+		<title>Xiaoyi Wu</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header" class="alt">
+						<span class="logo"><img src="images/logo.svg" alt="" /></span>
+						<h1>Xiaoyi Wu</h1>
+						<p>
+						<br>Diving into the world of data science, artificial intelligence, and spatial anlytics.<br>
+						<a href = "mailto: xiaoyiwu@upenn.edu">xiaoyiwu@upenn.edu</a>
+						</p>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul>
+							<li><a href="#intro" class="active">Introduction</a></li>
+							<li><a href="#first">Spatial Analytics</a></li>
+							<li><a href="#second">Machine Learning</a></li>
+							<li><a href="#third">Urban Planning</a></li>						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- intro -->
+							<section id="intro" class="main">
+								<div class="spotlight">
+									<div class="content">
+										<header class="major">
+											<h2>I'm Xiaoyi,</h2>
+										</header>
+										<p>	
+											I hold a B.S. degree in Geology from China University Geosciences(Beijing) and a Master of Urban Spatial Analytics from the University of Pennsylvania. 
+										 	I have an interdisciplinary background in <b>artificial intelligence</b>, <b>spatial analytics</b> and <b>remote sensing</b> with proficiency in <b>programming</b>. <br>
+											I'm quite interested in integrating <b>GIS</b> and <b>AI</b> into <b>human mobility</b>, <b>interaction mechanism</b> and <b>Earth Sciences</b>.<br>
+										</p>
+										<ul class="actions">
+											<li><a href="work/xiaoyi_wu_cv.pdf" class="button">CV download</a></li>
+										</ul>
+									</div>
+									<span class="image"><img src="images/profile.jpg" alt="profile" /></span>
+								</div>
+							</section>
+
+						<!-- First Section -->
+							<section id="first" class="main special">
+								<header class="major">
+									<h2>Spatial Analytics</h2>
+								</header>
+								<ul class="features">
+									<li>
+										<span class="image"><a href="work/house_prediction.html"><img src="images/boulder.jpg" alt="house in boulder" /></a></span>
+										<h3><a href="work/house_prediction.html">House Prices in Boulder</a></h3>
+										<p>
+											Wrangling data with web-APIs, this project used <b>R</b> to develop a regression model with neighborhood effects to predict house prices in Boulder, CO.
+										</p>
+									</li>
+									<li>
+										<span class="image"><a href="https://github.com/Xiaoyi-Wu0711/mobility_covid-19"><img src="images/NewYorkStreets.jpg" alt="mobility pattern in NYC" /></a></span>
+										<h3><a href="https://github.com/Xiaoyi-Wu0711/mobility_covid-19">COVID-19's Impact on Human Mobility in New York</a></h3>
+										<p>Based on <b>Python</b>, this study focuses on the spatio-temporal changes of mobility pattern in March 2019, March 2020 and March 2021 in New York City and analyzes the social equity issues caused by the pandemic.</p>
+									</li>
+								
+									<li>
+										<span class="image"><a href="work/eviction_and_NDVI.html"><img src="images/evictions.png" alt="evictions and NDVI in Philly" /></a></span>
+										<h3><a href="work/eviction_and_NDVI.html">Evictions and NDVI in Philadelphia</a></h3>
+										<p>Focusing on urban and suburban Philadelphia, this study analyzed the spatial distribution of evictions and NDVI values based on Landsat image.</p>
+									</li>
+									
+								
+							</section>
+
+						<!-- Second Section -->
+							<section id="second" class="main special">
+								<header class="major">
+									<h2>Machine Learning</h2>
+								</header>
+								<ul class="features">
+									<li>
+										<span class="image"><a href="work/semantic_segmentation.html"><img src="images/satellite image.png" alt="satellite imae" /></a></span>
+										<h3><a href="work/semantic_segmentation.html">Multi-class Land Use Type Segmentation based on UNet </a></h3>
+										<p>Based on <b>Pytorch</b>, this project developed UNet architecture to classify the land use type of satellite images based on pixel level.</p>
+									</li>
+									
+									<li>
+										<span class="image"><a href="https://cartogis.org/docs/autocarto/2022/docs/posters/Poster_Wu_1805.pdf"><img src="images/landslide.jpg" alt="landsliden" /></a></span>
+										<h3><a href="https://cartogis.org/docs/autocarto/2022/docs/posters/Poster_Wu_1805.pdf">Landslide Susceptibility based on Machine Learning models with GAN </a></h3>
+										<p>Based on <b>generative adversarial networks(GAN)</b>, this project synthesizes inventory data to solve the data scarsity issues in data-driven machine learning models, and increases their prediction capacity for landslide susceptibility in Hong Kong.
+										</p>
+									</li>
+
+									<li>
+										<span class="image"><img src="images/house subsidy.jpg" alt="house subsidy" /></span>
+										<h3><a href="work/Housing_subsidy.html">People Based Machine Learning-Housing Subsidy Prediction</a></h3>
+										<p>Based on <b>R</b>, this model developed a logic model to predict if homeowners will take the home repair tax credict or not. It also develops <b>cost/benefit analysis</b> to provide accurate and efficient resource allocation method to help governors save money.</p>
+										</p>
+									</li>
+
+							</section>
+
+						<!-- Third Section -->
+						<section id="fourth" class="main special">
+							<header class="major">
+								<h2>Urban Planning</h2>
+							</header>
+							<ul class="features">
+								<li>
+									<span class="image"><img src="images/ped bike plan.png" alt="pede bike planing" /></span>
+									<h3><a href="work/pedestrian and bicycle plan.pdf">Bicycle and Pedestrian Plan for Eakins Oval and Fairmount, Philadelphia </a></h3>
+									<p>This projec is a transportation planning study that focuses on improving the safety, accessibility, and connectivity of the area for pedestrians and bicyclists.  </p>
+								</li>
+								
+								
+								<li>
+									<span class="image"><img src="images/kcstreet.png" alt="KC street" /></span>
+									<h3><a href="work/KC Downtown Streetcar Report.pdf">Case Study: Kansas City Streetcar Main Street Extention project </a></h3>
+									<p>This project provides a comphrensive analysis of the KC street main street extention project. It reviewed the development history, and evaluated the effective and efficiency of the transportation systems based on population, land use, and economic affects</p>
+									</p>
+								</li>
+
+								<li>
+									<span class="image"><img src="images/chicago.jpg" alt="chicago" /></span>
+									<h3><a href="work/narcotics.html">Crime Prediction in Chicago</a></h3>
+									<p>This project develops a drug crime prediction model in Chicago based on aggravated data with 500ft*500ft grid cell. It not only focuses on the prediction accuracy, but also discusses the selection bias and fairness in geospatial risk-predicted models.
+									</p>
+								</li>
+
+						</section>
+
+
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
 </html>
