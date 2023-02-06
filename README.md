@@ -1,9 +1,8 @@
 
 ## Self Introduction
-I'm Xiaoyi!
-I'm a master student studying Ubran Spatial Analytics at the University of Pennsylvania.
-I have an interdisciplinary background in artificial intelligence, spatial analytics and remote sensing with proficiency in programming.
-I'm quite interested in integrating GIS and AI techniques to study human mobility, interaction mechanism and sustainable development.
+I'm Kaifa!
+I am a PhD student in College of Design, Construction and Planning at University of Florida, U.S. 
+My research interest includes transportation network modeling and optimization, environmental analysis of transportation infrastructure (e.g. urban elevated expressways), analysis and evaluation of transportation policy, adaptation planning for climate change, urban resilience, autonomous vehicle AV-based microtransit, micromobility, machine learning and deep learning.
 
 ### Welcome to my world: https://github.com/kaifalu917/kaifalu917.github.io
 
